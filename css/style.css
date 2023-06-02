@@ -1,0 +1,664 @@
+@font-face {
+    font-family: 'Atletico Regular';
+    src: url(../file/FontsFree-Net-Atletico-RegularDemo.ttf);
+}
+
+@font-face {
+    font-family: 'Atletico Bold';
+    src: url(../file/FontsFree-Net-AtleticoBold.ttf);
+}
+
+@font-face {
+    font-family: 'Atletico Medium';
+    src: url(../file/atletico-medium.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px auto;
+    padding: 0 20px;
+    max-width: 1700px;
+}
+
+/* Navbar start */
+
+.navbar {
+    background: black;
+    backdrop-filter: blur(7.5px);
+}
+
+.navbar_img {
+    margin-left: 116px;
+    margin-top: 20px;
+}
+
+/* Navbar the end */
+/* Header start */
+.header {
+    background: url(../img/image\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_h1 {
+    padding-top: 55px;
+    margin-left: 130px;
+    font-family: 'Atletico Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 81px;
+    color: #FFFFFF;
+}
+
+.header_p {
+    margin-top: 5px;
+    margin-left: 130px;
+    font-family: 'Atletico Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.div {
+
+    width: 130px;
+}
+
+.header_img {
+    position: relative;
+    top: -100px;
+    margin-left: 1400px;
+}
+
+.header_img2 {
+    position: relative;
+    top: -90px;
+    margin-left: 1400px;
+}
+
+.header_hr {
+    width: 1200px;
+    margin-left: 130px;
+    margin-top: -70px;
+    border: 1px solid #BBBBBB;
+}
+
+.header_p2 {
+    margin-top: 30px;
+    margin-left: 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+b {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: grey;
+}
+
+.header_div {
+    display: flex;
+}
+
+.header_div2 {
+    background: url(../img/Rectangle\ 37.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 520px;
+    margin-left: 130px;
+    margin-top: 20px;
+    padding-bottom: 244px;
+}
+
+.header_h3 {
+    padding-top: 380px;
+    padding-left: 18px;
+    font-family: 'Atletico Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.header_p3 {
+    margin-top: 10px;
+    padding-left: 18px;
+    word-spacing: 10px;
+    font-family: 'Atletico Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.img_div {
+    padding-left: 18px;
+    margin-top: 15px;
+}
+
+.header_p4 {
+    width: 150px;
+    display: flex;
+    margin-left: 280px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header_div3 {
+    width: 350px;
+    height: 520px;
+    background: rgba(51, 51, 51, 0.3);
+    backdrop-filter: blur(11.5px);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.header_div3:hover {
+    border: 3px solid dodgerblue;
+    transition-delay: 1s;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+
+.header_text {
+    font-family: 'Atletico Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #6180F2;
+    padding-top: 25px;
+    padding-left: 35px;
+}
+
+.header_text2 {
+    font-family: 'Atletico Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.header_matn {
+    font-family: 'Atletico Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35px;
+    align-items: center;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.header_jpg {
+    margin-right: 50px;
+}
+
+.header_text3 {
+    margin-top: 23px;
+    margin-left: 35px;
+    font-family: 'Atletico Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.header_h5 {
+    font-family: 'Atletico Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.header_h6 {
+    font-family: 'Atletico Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.div1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 400px;
+    height: 220px;
+    background: url(../img/image\ 2.png), linear-gradient(180deg, rgba(0, 0, 0, 0) 49.06%, #000000 100%);
+}
+
+.div1:hover {
+    border: 3px solid yellow;
+    cursor: progress;
+    transition-delay: 0, 5s;
+    transition-duration: 2s;
+}
+
+.div2 {
+    width: 400px;
+    height: 220px;
+    margin-left: 20px;
+    background: url(../img/image\ 8.png), linear-gradient(180deg, rgba(0, 0, 0, 0) 49.06%, #000000 100%);
+}
+
+.div2:hover {
+    border: 3px solid red;
+    cursor: progress;
+    transition-delay: 0, 5s;
+    transition-duration: 2s;
+}
+
+.div3 {
+    width: 400px;
+    height: 220px;
+    margin-left: 20px;
+    background: url(../img/image\ 10.png), linear-gradient(180deg, rgba(0, 0, 0, 0) 49.06%, #000000 100%);
+}
+
+.div3:hover {
+    border: 3px solid blue;
+    cursor: progress;
+    transition-delay: 0, 5s;
+    transition-duration: 2s;
+}
+
+.header_h22 {
+    padding-top: 150px;
+    margin-left: 15px;
+    font-family: 'Atletico Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+
+.header_a {
+    display: flex;
+    align-items: center;
+    font-family: 'Atletico Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.header_picture {
+    margin-right: 10px;
+}
+
+.h2 {
+    position: relative;
+    top: -110px;
+    left: 130px;
+    font-family: 'Atletico Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.p {
+    position: relative;
+    left: 130px;
+    top: -85px;
+    font-family: 'Atletico Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    width: 675px;
+    color: #FFFFFF;
+}
+
+/* Header the end */
+/* Hero start */
+.hero {
+    background: #E5E5E5;
+}
+
+.hero_h2 {
+    font-family: 'Atletico Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #464646;
+    margin-left: 130px;
+    padding-top: 80px;
+}
+
+.hero_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    padding-bottom: 70px;
+}
+
+.hero_div2 {
+    background: #212325;
+    width: 350px;
+    height: 410px;
+    margin-left: 20px;
+}
+
+.hero_img {
+    margin-left: 40px;
+    margin-top: -70px;
+    border: 6px solid white;
+    border-radius: 50%;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../file/Montserrat-VariableFont_wght.ttf);
+}
+
+.hero_h4 {
+    margin-top: 19px;
+    margin-left: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.hero_p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 30px;
+    margin-top: 16px;
+}
+
+.hero_img2 {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+/* Hero the end */
+/* Center start */
+.center {
+    background: url(../img/Rectangle\ 18.png), rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.center_div {
+    display: flex;
+}
+
+.center_img {
+    padding-top: 70px;
+    margin-left: 130px;
+    padding-bottom: 69px;
+}
+
+.center_div2 {
+    width: 820px;
+}
+
+.center_h2 {
+    padding-top: 118px;
+    margin-left: 20px;
+    font-family: 'Atletico Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.center_p {
+    font-family: 'Atletico Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.btn {
+    padding: 20px 51px;
+    background: #6180F2;
+    border-radius: 5px;
+    border-style: none;
+    font-family: 'Atletico Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 68px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: rgba(28, 31, 30);
+    border: 1px solid rgb(28, 31, 30);
+    transition: 0.2s 0.1s;
+}
+
+/* Center the end */
+/* Left start */
+.left {
+    background-color: white;
+}
+
+.left_h2 {
+    padding-top: 70px;
+    margin-left: 130px;
+    font-family: 'Atletico Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #464646;
+}
+
+.left_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 70px;
+}
+
+.left_div2 {
+    width: 350px;
+    height: 270px;
+    background: url(../img/Rectangle\ 21.png);
+    margin-left: 20px;
+}
+
+.left_div3 {
+    width: 350px;
+    height: 270px;
+    background: url(../img/Rectangle\ 22.png);
+    margin-left: 20px;
+}
+
+.left_div4 {
+    width: 350px;
+    height: 270px;
+    background: url(../img/Rectangle\ 23.png);
+    margin-left: 20px;
+}
+
+.left_div5 {
+    width: 350px;
+    height: 270px;
+    background: url(../img/Rectangle\ 24.png);
+    margin-left: 20px;
+}
+
+.left_img {
+    padding-top: 120px;
+    margin-left: 20px;
+}
+
+.left_img2 {
+    padding-top: 120px;
+    margin-left: 320px;
+}
+
+.left_h3 {
+    font-family: 'Atletico Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 55px;
+    margin-left: 21px;
+}
+
+.left_h32 {
+    font-family: 'Atletico Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 195px;
+    margin-left: 21px;
+}
+
+/* Left the end */
+.footer {
+    display: flex;
+    background: #212325;
+    margin-bottom: 200px;
+}
+
+.footer_div2 {
+    width: 400px;
+    height: 600px;
+    background: url(../img/Rectangle\ 50.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+
+}
+
+.footer_div2 {
+    width: 400px;
+    height: 600px;
+}
+
+.footer_h2 {
+    font-family: 'Atletico Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.footer_h22 {
+    font-family: 'Atletico Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    padding-top: 80px;
+    text-decoration: none;
+}
+
+.footer_p {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.footer_img {
+    margin-right: 30px;
+}
+
+.footer_h3 {
+    font-family: 'Atletico Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.footer_img2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 70px;
+}
+
+.footer_text {
+    font-family: 'Atletico Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+iframe {
+    width: 550px;
+    height: 600px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
